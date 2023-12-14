@@ -1,0 +1,491 @@
+{
+  "name": "roots/bedrock",
+  "type": "project",
+  "license": "MIT",
+  "description": "WordPress boilerplate with Composer, easier configuration, and an improved folder structure",
+  "homepage": "https://roots.io/bedrock/",
+  "authors": [
+    {
+      "name": "Scott Walkinshaw",
+      "email": "scott.walkinshaw@gmail.com",
+      "homepage": "https://github.com/swalkinshaw"
+    },
+    {
+      "name": "Ben Word",
+      "email": "ben@benword.com",
+      "homepage": "https://github.com/retlehs"
+    }
+  ],
+  "keywords": [
+    "bedrock",
+    "composer",
+    "roots",
+    "wordpress",
+    "wp",
+    "wp-config"
+  ],
+  "support": {
+    "issues": "https://github.com/roots/bedrock/issues",
+    "forum": "https://discourse.roots.io/category/bedrock"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org",
+      "only": [
+        "wpackagist-plugin/*",
+        "wpackagist-theme/*"
+      ]
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:majedghareeb/stv-wams-plugin.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:majedghareeb/stv-wams-theme.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:majedghareeb/stv-wams-search-client.git"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravityforms/gravityforms",
+        "version": "2.7.9",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravityforms_2.7.9_nulled.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravityforms/gravityforms",
+        "version": "2.7.9",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravityforms_2.7.9.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravityflow/gravityflow",
+        "version": "2.9.5",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravityflow-2.9.5.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravityperks/gravityperks",
+        "version": "2.3.1",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravityperks-2.3.1.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravityflowformconnector/gravityflowformconnector",
+        "version": "2.3",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravityflowformconnector.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gp-populate-anything/gp-populate-anything",
+        "version": "2.0.21",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gp-populate-anything-2.0.21.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gp-nested-forms/gp-nested-forms",
+        "version": "1.1.41",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gp-nested-forms.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravityformschainedselects/gravityformschainedselects",
+        "version": "1.5",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravityformschainedselects.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravityview-advanced-filter/gravityview-advanced-filter",
+        "version": "2.2",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravityview-advanced-filter-2.2.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravityview-datatables/gravityview-datatables",
+        "version": "3.1.2",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravityview-datatables-3.1.2.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravityview-diy/gravityview-diy",
+        "version": "2.4",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravityview-diy_2.4.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravityview-importer/gravityview-importer",
+        "version": "2.4.7",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravityview-importer-2.4.7.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravityview-math/gravityview-math",
+        "version": "2.3.2",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravityview-math-2.3.2.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gwreadonly/gwreadonly",
+        "version": "1.9.19",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gwreadonly_1.9.19.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravitycharts/gravitycharts",
+        "version": "1.6",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravitycharts-1_6.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravityview-calendar/gravityview-calendar",
+        "version": "2.4",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravityview-calendar-2.4.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravityview/gravityview",
+        "version": "2.19.5",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravity-view-plugin-2.19.5.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravityactions/gravityactions",
+        "version": "1.4.5",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravityactions_1.4.5.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravityview-advanced-filter/gravityview-advanced-filter",
+        "version": "2.4.1",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravityview-advanced-filter-2.4.1.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravityforms/gravityforms",
+        "version": "2.8.0",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravityforms-2.8.0.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravityflow/gravityflow",
+        "version": "2.9.5",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravityflow-2.9.5.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "um-messaging/um-messaging",
+        "version": "2.3.6",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/um-messaging.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "um-notifications/um-notifications",
+        "version": "2.3.4",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/um-notifications.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "um-verified-users/um-verified-users",
+        "version": "1.0",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/um-verified-users.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "um-online/um-online",
+        "version": "2.1.4",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/um-addon-online-users-v2.1.4.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravitywp-list-number-format/gravitywp-list-number-format",
+        "version": "2.0.9",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravitywp-list-number-format.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravitywp-list-dropdown/gravitywp-list-dropdown",
+        "version": "2.0.5",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravitywp-list-dropdown2.0.5.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "gravityformsuserregistration/gravityformsuserregistration",
+        "version": "5.3.0",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravityformsuserregistration-5.3.0.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-database-cleaner-pro/advanced-database-cleaner-pro",
+        "version": "5.3.0",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/advanced-database-cleaner-pro-3.2.3.zip"
+        }
+      }
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "composer/installers": "^2.2",
+    "vlucas/phpdotenv": "^5.5",
+    "oscarotero/env": "^2.1",
+    "roots/bedrock-autoloader": "^1.0",
+    "roots/bedrock-disallow-indexing": "^2.0",
+    "roots/wordpress": "6.4.2",
+    "roots/wp-config": "1.0.0",
+    "roots/wp-password-bcrypt": "1.1.0",
+    "wpackagist-theme/twentytwentyfour": "^1.0",
+    "google/apiclient": "^2.12.1",
+    "voku/simple_html_dom": "*",
+    "eleirbag89/telegrambotphp": "^1.4",
+    "goodby/csv": "*",
+    "symfony/dom-crawler": "*",
+    "majedghareeb/wams-theme": "*",
+    "majedghareeb/stv-wams-plugin": "*",
+    "majedghareeb/stv-wams-search-client": "*",
+    "twbs/bootstrap": "5.2.3",
+    "gravityforms/gravityforms": "*",
+    "gravityflow/gravityflow": "*",
+    "gravityview/gravityview": "2.19.5",
+    "gwreadonly/gwreadonly": "*",
+    "gravityperks/gravityperks": "*",
+    "gravityflowformconnector/gravityflowformconnector": "*",
+    "gravitywp-list-number-format/gravitywp-list-number-format": "*",
+    "gravitywp-list-dropdown/gravitywp-list-dropdown": "*",
+    "gravityview-math/gravityview-math": "*",
+    "gravityview-importer/gravityview-importer": "*",
+    "gravityview-diy/gravityview-diy": "*",
+    "gravityview-datatables/gravityview-datatables": "*",
+    "gravityview-advanced-filter/gravityview-advanced-filter": "*",
+    "gravityformsuserregistration/gravityformsuserregistration": "*",
+    "gravityformschainedselects/gravityformschainedselects": "*",
+    "gp-nested-forms/gp-nested-forms": "*",
+    "gp-populate-anything/gp-populate-anything": "*",
+    "um-notifications/um-notifications": "*",
+    "um-verified-users/um-verified-users": "*",
+    "um-online/um-online": "*",
+    "um-messaging/um-messaging": "*",
+    "advanced-database-cleaner-pro/advanced-database-cleaner-pro": "*",
+    "wpackagist-plugin/ultimate-member": "2.8.0",
+    "wpackagist-plugin/disable-admin-notices": "*",
+    "wpackagist-plugin/disable-emails": "*",
+    "wpackagist-plugin/disable-json-api": "*",
+    "wpackagist-plugin/action-scheduler": "*"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.7.1",
+    "roave/security-advisories": "dev-latest"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "allow-plugins": {
+      "composer/installers": true,
+      "roots/wordpress-core-installer": true
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "google/apiclient-services": [
+      "Analytics",
+      "AnalyticsData",
+      "AnalyticsReporting",
+      "GoogleAnalyticsAdmin",
+      "CustomSearchAPI",
+      "CloudSearch"
+    ],
+    "installer-paths": {
+      "web/app/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "web/app/plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ],
+      "web/app/themes/{$name}/": [
+        "type:wordpress-theme"
+      ]
+    },
+    "wordpress-install-dir": "web/wp"
+  },
+  "scripts": {
+    "post-update-cmd": "Google\\Task\\Composer::cleanup",
+    "test": [
+      "phpcs"
+    ]
+  }
+}
