@@ -1,33 +1,23 @@
 {
-  "name": "roots/bedrock",
+  "name": "majedghareeb/syria-tv-net",
   "type": "project",
-  "license": "MIT",
-  "description": "WordPress boilerplate with Composer, easier configuration, and an improved folder structure",
-  "homepage": "https://roots.io/bedrock/",
+  "license": "GPL",
+  "description": "Syria TV WAMS",
+  "homepage": "https://syriatv.rakami.net",
   "authors": [
     {
-      "name": "Scott Walkinshaw",
-      "email": "scott.walkinshaw@gmail.com",
-      "homepage": "https://github.com/swalkinshaw"
-    },
-    {
-      "name": "Ben Word",
-      "email": "ben@benword.com",
-      "homepage": "https://github.com/retlehs"
+      "name": "Majed Ghareeb",
+      "email": "majed@rakami.net",
+      "homepage": "https://www.rakami.net"
     }
   ],
   "keywords": [
     "bedrock",
     "composer",
-    "roots",
     "wordpress",
     "wp",
     "wp-config"
   ],
-  "support": {
-    "issues": "https://github.com/roots/bedrock/issues",
-    "forum": "https://discourse.roots.io/category/bedrock"
-  },
   "repositories": [
     {
       "type": "composer",
@@ -48,6 +38,18 @@
     {
       "type": "vcs",
       "url": "git@github.com:majedghareeb/stv-wams-search-client.git"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "umdevelopera/um-optimize",
+        "version": "1.1.1",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/umdevelopera/um-optimize/archive/refs/heads/main.zip"
+        }
+      }
     },
     {
       "type": "package",
@@ -396,6 +398,18 @@
           "url": "https://www.rakami.net/rakami_repo/advanced-database-cleaner-pro-3.2.3.zip"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "w3-total-cache/w3-total-cache",
+        "version": "2.6.1",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/w3-total-cache-2.6.1.zip"
+        }
+      }
     }
   ],
   "require": {
@@ -403,18 +417,18 @@
     "composer/installers": "^2.2",
     "vlucas/phpdotenv": "^5.5",
     "oscarotero/env": "^2.1",
+    "google/apiclient": "^2.12.1",
     "roots/bedrock-autoloader": "^1.0",
     "roots/bedrock-disallow-indexing": "^2.0",
     "roots/wordpress": "6.4.2",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
     "wpackagist-theme/twentytwentyfour": "^1.0",
-    "google/apiclient": "^2.12.1",
     "voku/simple_html_dom": "*",
     "eleirbag89/telegrambotphp": "^1.4",
     "goodby/csv": "*",
     "symfony/dom-crawler": "*",
-    "majedghareeb/wams-theme": "*",
+    "majedghareeb/stv-wams-theme": "*",
     "majedghareeb/stv-wams-plugin": "*",
     "majedghareeb/stv-wams-search-client": "*",
     "twbs/bootstrap": "5.2.3",
@@ -438,13 +452,16 @@
     "um-notifications/um-notifications": "*",
     "um-verified-users/um-verified-users": "*",
     "um-online/um-online": "*",
+    "umdevelopera/um-optimize": "*",
     "um-messaging/um-messaging": "*",
     "advanced-database-cleaner-pro/advanced-database-cleaner-pro": "*",
+    "w3-total-cache/w3-total-cache": "*",
     "wpackagist-plugin/ultimate-member": "2.8.0",
     "wpackagist-plugin/disable-admin-notices": "*",
     "wpackagist-plugin/disable-emails": "*",
     "wpackagist-plugin/disable-json-api": "*",
-    "wpackagist-plugin/action-scheduler": "*"
+    "wpackagist-plugin/action-scheduler": "*",
+    "wpackagist-plugin/um-recaptcha": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
