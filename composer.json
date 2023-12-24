@@ -40,6 +40,10 @@
       "url": "git@github.com:majedghareeb/stv-wams-search-client.git"
     },
     {
+      "type": "vcs",
+      "url": "git@github.com:majedghareeb/stv-wams-input-plugin.git"
+    },
+    {
       "type": "package",
       "package": {
         "name": "umdevelopera/um-optimize",
@@ -443,6 +447,7 @@
     "majedghareeb/stv-wams-theme": "*",
     "majedghareeb/stv-wams-plugin": "*",
     "majedghareeb/stv-wams-search-client": "*",
+    "majedghareeb/stv-wams-input-plugin": "*",
     "gravityforms/gravityforms": "*",
     "gravityflow/gravityflow": "*",
     "gravityflowvacation/gravityflowvacation": "*",
