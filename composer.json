@@ -402,6 +402,18 @@
     {
       "type": "package",
       "package": {
+        "name": "gravityflowvacation/gravityflowvacation",
+        "version": "5.3.0",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://www.rakami.net/rakami_repo/gravityflowvacation.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "w3-total-cache/w3-total-cache",
         "version": "2.6.1",
         "type": "wordpress-plugin",
@@ -431,9 +443,9 @@
     "majedghareeb/stv-wams-theme": "*",
     "majedghareeb/stv-wams-plugin": "*",
     "majedghareeb/stv-wams-search-client": "*",
-    "twbs/bootstrap": "5.2.3",
     "gravityforms/gravityforms": "*",
     "gravityflow/gravityflow": "*",
+    "gravityflowvacation/gravityflowvacation": "*",
     "gravityview/gravityview": "2.19.5",
     "gwreadonly/gwreadonly": "*",
     "gravityperks/gravityperks": "*",
